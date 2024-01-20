@@ -34,6 +34,7 @@ def crazy_loop():
     for x in range(1000):
         t.forward(x / 3)
         t.left(x % 20 + 50)
+        t.done()
 
 def crazy_loop2():
     angle = 87
@@ -44,4 +45,4 @@ def crazy_loop2():
     t.done()
 
 
-crazy_loop2()
+crazy_loop()
