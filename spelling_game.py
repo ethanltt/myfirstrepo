@@ -1,16 +1,16 @@
 def run_word_guessing_game():
-    words_with_hints = [
-        ("Bakery", "A place where bread and cakes are made."),
-        ("Gloves", "Worn on hands to keep them warm or clean."),
-        ("Jungle", "A dense forest in a tropical area."),
-        ("Stream", "A small, narrow river."),
-        ("Throne", "A ceremonial chair for a sovereign or deity."),
-        ("Silver", "A precious shiny grayish-white metal."),
-        ("Frozen", "Turned into ice or another solid state."),
-        ("Spring", "The season after winter and before summer."),
-        ("Bottle", "A container, typically made of glass or plastic and with a narrow neck, used for storing drinks."),
-        ("Gadget", "A small mechanical or electronic device or tool.")
-    ]
+    words_with_hints =  [
+    ("apple", "A fruit often associated with Newton"),
+    ("beach", "A sandy or pebbly shore by a body of water"),
+    ("chess", "A strategic board game with kings and queens"),
+    ("drill", "A tool or exercise often used in construction or fitness"),
+    ("eagle", "A large bird of prey with a keen eye"),
+    ("flame", "A visible, gaseous part of a fire"),
+    ("grape", "A small, sweet fruit often used to make wine"),
+    ("honey", "A sweet substance made by bees"),
+    ("island", "A piece of land surrounded by water"),
+    ("joker", "A card in a deck, or a person who loves to joke")
+]
 
     score = 0
 
@@ -32,7 +32,7 @@ def run_word_guessing_game():
         
         while not correct_guess:
             # Get user input
-            user_guess = input("Your guess: ").capitalize().strip()
+            user_guess = input("Your guess: ").strip()
             
             # Check if the guess is correct
             if user_guess == word:
