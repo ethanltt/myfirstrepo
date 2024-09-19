@@ -9,7 +9,8 @@ def run_word_guessing_game():
     ("grape", "A small, sweet fruit often used to make wine"),
     ("honey", "A sweet substance made by bees"),
     ("island", "A piece of land surrounded by water"),
-    ("joker", "A card in a deck, or a person who loves to joke")
+    ("joker", "A card in a deck, or a person who loves to joke"),
+    ("animal", "Creatures on planet earth")
 ]
 
     score = 0
