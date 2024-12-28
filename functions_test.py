@@ -7,4 +7,8 @@ def birthday(name):
         return  "9/28"
     else:
         return "I don't know"
-print(birthday("Fiona"))
+def get_user_name():
+    return input("please enter your name: ")
+name = get_user_name()
+#print(birthday("Ethan"))
+print(f"My name is {name} and my birthday is {birthday(name)}")L
