@@ -11,12 +11,12 @@
 
 
 
-magic_number = 486
+magic_number = 3405
 guess = 0
 
 while guess != magic_number:
     guess=int(input("guess the magic number: "))
-    if guess == magic_number:  
+    if guess == magic_number:
          print("you got it!")
     elif guess > magic_number :
         print("too high")
@@ -24,4 +24,7 @@ while guess != magic_number:
         print ("too low")    
     else:
         print("try again!")
+
+
+print("the while loop is over!")
     
